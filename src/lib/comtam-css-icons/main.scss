@@ -1,0 +1,9 @@
+@use "icons";
+
+.ct-i {
+   width: 1em;
+   height: 1em;
+   display: inline-block;
+   mask-size: 100% 100%;
+   background-color: var(--ct-black);
+}

@@ -1,0 +1,64 @@
+:root {
+  --ct-font-body: Manrope;
+  --ct-font-heading: Manrope;
+  // =====================
+  // =       COLOR       =
+  // =====================
+
+  // Black - white
+  --ct-black: #000;
+  --ct-white: #fff;
+
+  // Primary
+  --ct-primary-50:  #FFFBF3;
+  --ct-primary-100: #FDECCE;
+  --ct-primary-200: #FBD89D;
+  --ct-primary-300: #F9C56D;
+  --ct-primary-400: #F7B13C;
+  --ct-primary-500: #D97706;
+  --ct-primary-600: #F59E0B;
+  --ct-primary-700: #A85923;
+  --ct-primary-800: #623F04;
+  --ct-primary-900: #312002;
+
+  // Grey
+  --ct-grey-50:  #F9FAFB;
+  --ct-grey-100: #F3F4F6;
+  --ct-grey-200: #E5E7EB;
+  --ct-grey-400: #9CA3AF;
+
+  // =====================
+  // =       DIMENS      =
+  // =====================
+
+  --ct-dimen-xs: 0.5rem;
+  --ct-dimen-sm: 0.75rem;
+  --ct-dimen-md: 1rem;
+  --ct-dimen-lg: 1.5rem;
+  --ct-dimen-xl: 1.75rem;
+  --ct-dimen-xxl: 2rem;
+
+  --ct-dimen-2xxl: 4rem;
+
+  --ct-round-corner-sm: 8px;
+  --ct-round-corner-md: 8px;
+  --ct-round-corner-lg: 8px;
+
+  --ct-padding-sm: 0.25em;
+  --ct-padding-md: 0.5em;
+
+  --ct-sidemenu-width: 350px;
+}
+
+.dark-theme {
+  --ct-primary-50:  #FFFBF3;
+  --ct-primary-100: #FDECCE;
+  --ct-primary-200: #FBD89D;
+  --ct-primary-300: #F9C56D;
+  --ct-primary-400: #F7B13C;
+  --ct-primary-500: #D97706;
+  --ct-primary-600: #F59E0B;
+  --ct-primary-700: #A85923;
+  --ct-primary-800: #623F04;
+  --ct-primary-900: #312002;
+}
