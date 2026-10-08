@@ -1,11 +1,18 @@
 :root {
-  --ct-font-body: Manrope;
-  --ct-font-heading: Manrope;
+  --ct-body-font: "Be Vietnam Pro", sans-serif;
+  --ct-heading-font: "Be Vietnam Bro";
+
+  --ct-body-color: var(--ct-grey-700);
+
+  --ct-link-color: var(--ct-primary-600);
+
+  --ct-card-bg: #fff;
+  --ct-card-corner: 12px;
+  --ct-card-shadow: 0 1px 3px 0 rgba(0,0,0,0.06), 0 0 0 1px #ECECEE;
+
   // =====================
   // =       COLOR       =
   // =====================
-
-  // Black - white
   --ct-black: #000;
   --ct-white: #fff;
 
@@ -15,8 +22,8 @@
   --ct-primary-200: #FBD89D;
   --ct-primary-300: #F9C56D;
   --ct-primary-400: #F7B13C;
-  --ct-primary-500: #D97706;
-  --ct-primary-600: #F59E0B;
+  --ct-primary-500: #F59E0B;
+  --ct-primary-600: #D97706;
   --ct-primary-700: #A85923;
   --ct-primary-800: #623F04;
   --ct-primary-900: #312002;
@@ -25,7 +32,13 @@
   --ct-grey-50:  #F9FAFB;
   --ct-grey-100: #F3F4F6;
   --ct-grey-200: #E5E7EB;
+  --ct-grey-300: #D1D5DB;
   --ct-grey-400: #9CA3AF;
+  --ct-grey-500: #6B7280;
+  --ct-grey-600: #4B5563;
+  --ct-grey-700: #374151;
+  --ct-grey-800: #1F2937;
+  --ct-grey-900: #111827;
 
   // =====================
   // =       DIMENS      =
@@ -48,6 +61,7 @@
   --ct-padding-md: 0.5em;
 
   --ct-sidemenu-width: 350px;
+
 }
 
 .dark-theme {

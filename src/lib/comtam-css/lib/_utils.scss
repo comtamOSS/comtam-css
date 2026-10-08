@@ -1,0 +1,33 @@
+
+.ct-p-sm {
+  padding: var(--ct-dimen-sm);
+}
+
+.ct-p-md {
+  padding: var(--ct-dimen-md);
+}
+
+.ct-box {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+
+.ct-p-h-xxl {
+  padding-left: var(--ct-dimen-xxl);
+  padding-right: var(--ct-dimen-xxl);
+}
+
+.ct-link {
+  text-decoration: underline;
+  color: var(--ct-link-color);
+}
+
+.ct-i {
+   width: 1em;
+   height: 1em;
+   display: inline-block;
+   mask-size: 100% 100%;
+   background-color: var(--ct-black);
+}

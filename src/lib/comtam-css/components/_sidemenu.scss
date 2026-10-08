@@ -1,5 +1,7 @@
 .ct-sidemenu {
   padding: var(--ct-padding-md);
+  font-size: 0.95em;
+  overflow: auto;
 
   &__list {
     list-style: none;
@@ -24,10 +26,23 @@
     }
 
     &__icon {
-      width: 2em;
-      height: 2em;
+      width: 1.7em;
+      height: 1.7em;
       background-color: var(--ct-grey-400);
     }
+
+    &.selected {
+      background-color: var(--ct-grey-100);
+
+      .ct-sidemenu-item__label {
+        color: var(--ct-primary-600);
+      }
+
+      .ct-sidemenu-item__icon {
+        background-color: var(--ct-primary-600);
+      }
+    }
+
   }
 }
 
@@ -42,6 +57,7 @@
     padding: 0.3em 1.2em;
     border-radius: var(--ct-round-corner-md);
     height: 32px;
+    cursor: pointer;
 
     &:hover {
       background-color: var(--ct-grey-100);
@@ -51,5 +67,17 @@
     width: 20px;
     height: 20px;
   }
+
+  &__container {
+    overflow: hidden;
+    display: none;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 300ms ease;
+  }
+
+  &__container.opened {
+    display: block;
+  }
+
 }
 

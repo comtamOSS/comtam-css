@@ -3,6 +3,7 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { defineConfig } from 'vite';
 import { iconsScss } from './vite-plugin/vite-plugin-generate-icon-scss.js';
+import { mdsvex } from 'mdsvex';
 
 export default defineConfig({
 	plugins: [
@@ -18,7 +19,13 @@ export default defineConfig({
 			// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
 			// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 			adapter: adapter(),
-      preprocess: vitePreprocess()
-		})
+      preprocess: [
+        mdsvex({
+          extensions: ['.md', '.svx']
+        }),
+        vitePreprocess(),
+      ],
+      extensions: [".svelte", ".svx", ".md"],
+		}),
 	]
 });

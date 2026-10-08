@@ -1,8 +1,13 @@
 @use "lib/variable";
+@use "lib/utils";
+@use "comtam-css-icons/icons";
+@use "comtam-css-fonts/font-bevietnambro";
 
-@use "layouts/utils";
 @use "layouts/panel";
 @use "layouts/row";
 @use "layouts/col";
 
 @use "components/sidemenu";
+@use "components/card";
+
+

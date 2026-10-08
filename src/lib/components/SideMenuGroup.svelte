@@ -2,7 +2,7 @@
   import type { Snippet } from "svelte";
 
   let isExpand = $state(false);
-  let { children }: { children: Snippet } = $props();
+  let { children, label }: { children: Snippet, label: string } = $props();
 
 </script>
 
@@ -14,7 +14,7 @@
       isExpand = !isExpand;
     }}
   >
-    <div class="ct-sidemenu-group__label">Shop</div>
+    <div class="ct-sidemenu-group__label">{label}</div>
     <span
       class={[
         "ct-i ct-sidemenu-group__icon",
@@ -22,7 +22,7 @@
       ]}
     ></span>
   </div>
-  <div class="ct-sidemenu-group__container">
+  <div class={ [ "ct-sidemenu-group__container", isExpand ? "opened" : ""] }>
      {@render children()}
   </div>
 </div>
