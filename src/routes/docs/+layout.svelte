@@ -5,7 +5,7 @@
   let { children } = $props();
 </script>
 
-<div class="ct-panel-container">
+<div class="ct-panel-container open">
   <section class="ct-panel-sidemenu">
     <nav class="ct-sidemenu">
       <ul class="ct-sidemenu__list">

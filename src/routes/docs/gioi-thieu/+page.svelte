@@ -1,3 +1,7 @@
+<script>
+    import Link from "$lib/components/Link.svelte";
+</script>
+
 <h1>Giới thiệu</h1>
 <p>
 ComTamCSS là một thư viện CSS tập trung vào cung
@@ -11,10 +15,10 @@ quan trọng mà tôi hướng dự án này trở thành:
    <li>Hỗ trợ càng nhiều components càng tốt</li>
 </ul>
 
-<p>Tôi lấy cảm hứng từ <a target="_blank" class="ct-link" href="https://filamentphp.com/">Filament</a> design rất nhiều</p>
+<p>Tôi lấy cảm hứng từ <Link href="https://filamentphp.com/">Filament</Link>  design rất nhiều</p>
 
 <h2>Font</h2>
-<p><a target="_blank" class="ct-link" href="https://fonts.google.com/specimen/Be+Vietnam+Pro?preview.script=Latn">Be Vietnam Pro</a></p>
+<p><Link href="https://fonts.google.com/specimen/Be+Vietnam+Pro?preview.script=Latn">Be Vietnam Pro</Link></p>
 
 <h2>Icon</h2>
-<p><a target="_blank" class="ct-link" href="https://heroicons.com">Heroicons</a></p>
+<p><Link href="https://heroicons.com">Heroicons</Link></p>

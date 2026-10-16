@@ -1,9 +1,8 @@
 :root {
   --ct-body-font: "Be Vietnam Pro", sans-serif;
-  --ct-heading-font: "Be Vietnam Bro";
-
   --ct-body-color: var(--ct-grey-700);
 
+  --ct-heading-font: "Be Vietnam Bro";
   --ct-link-color: var(--ct-primary-600);
 
   --ct-card-bg: #fff;
@@ -62,6 +61,12 @@
 
   --ct-sidemenu-width: 350px;
 
+  // ====================
+  // =      SCREEN      =
+  // ====================
+  --ct-screen-lg: 700px;
+  --ct-screen-md: 400px;
+  --ct-screen-sm: 300px;
 }
 
 .dark-theme {

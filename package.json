@@ -9,7 +9,8 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "sass:build": "sass --style=compressed ./src/lib/comtam-css/main.scss ./target-css/main.css && VERSION=v0.0.1 ./pack.sh"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.1",
