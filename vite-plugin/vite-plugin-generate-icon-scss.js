@@ -17,7 +17,7 @@ export function iconsScss() {
           const name = path.basename(file, '.svg')
           return `
 .ct-i-${name} {
-  mask: url('/comtam-css-icons/heroicon/outline/${file}') no-repeat;
+  mask-image: url('/comtam-css-icons/heroicon/outline/${file}');
 }
 `
         })

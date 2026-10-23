@@ -1,13 +1,35 @@
 :root {
+  // common
   --ct-body-font: "Be Vietnam Pro", sans-serif;
   --ct-body-color: var(--ct-grey-700);
-
   --ct-heading-font: "Be Vietnam Bro";
   --ct-link-color: var(--ct-primary-600);
 
+  // sidemenu
+  --ct-sidemenu-item-height: 2.5rem;
+
+  // breadcrumb
+  --ct-breadcrumb-label-color: var(--ct-grey-500);
+  --ct-breadcrumb-icon-color: var(--ct-grey-400);
+
+  // card
   --ct-card-bg: #fff;
   --ct-card-corner: 12px;
   --ct-card-shadow: 0 1px 3px 0 rgba(0,0,0,0.06), 0 0 0 1px #ECECEE;
+
+  // button
+  --ct-primary-button-default-bg-color: var(--ct-primary-600);
+  --ct-primary-button-default-fg-color: var(--ct-white);
+  --ct-primary-button-hover-bg-color: var(--ct-primary-500);
+
+  --ct-secondary-button-default-bg-color: var(--ct-white);
+  --ct-secondary-button-default-fg-color: var(--ct-grey-800);
+  --ct-secondary-button-default-border-color: var(--ct-grey-200);
+  --ct-secondary-button-hover-bg-color: var(--ct-grey-100);
+
+  --ct-danger-button-default-bg-color: var(--ct-danger-600);
+  --ct-danger-button-default-fg-color: var(--ct-white);
+  --ct-danger-button-hover-bg-color: var(--ct-danger-500);
 
   // =====================
   // =       COLOR       =
@@ -39,6 +61,18 @@
   --ct-grey-800: #1F2937;
   --ct-grey-900: #111827;
 
+  // Danger
+  --ct-danger-50: #FFF1F2;
+  --ct-danger-100: #FDD9DF;
+  --ct-danger-200: #FBB2BF;
+  --ct-danger-300: #F88C9E;
+  --ct-danger-400: #F6657E;
+  --ct-danger-500: #F43F5E;
+  --ct-danger-600: #E11C48;
+  --ct-danger-700: #B4173A;
+  --ct-danger-800: #621926;
+  --ct-danger-900: #310D13;
+
   // =====================
   // =       DIMENS      =
   // =====================
@@ -53,7 +87,7 @@
   --ct-dimen-2xxl: 4rem;
 
   --ct-round-corner-sm: 8px;
-  --ct-round-corner-md: 8px;
+  --ct-round-corner-md: 10px;
   --ct-round-corner-lg: 8px;
 
   --ct-padding-sm: 0.25em;

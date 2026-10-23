@@ -1,7 +1,9 @@
 <script>
+    import Breadcrumb from "$lib/components/Breadcrumb.svelte";
     import Link from "$lib/components/Link.svelte";
 </script>
 
+<Breadcrumb arrOfLabel={["Trang chủ" ,"Giới thiệu"]} />
 <h1>Giới thiệu</h1>
 <p>
 ComTamCSS là một thư viện CSS tập trung vào cung

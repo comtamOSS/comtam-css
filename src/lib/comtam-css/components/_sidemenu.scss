@@ -2,6 +2,7 @@
   padding: var(--ct-padding-md);
   font-size: 0.95em;
   overflow: auto;
+  height: 100%;
 
   &__list {
     list-style: none;
@@ -14,13 +15,13 @@
     flex-direction: row;
     align-items: center;
     padding: 0.3em 1.2em;
+    height: var(--ct-sidemenu-item-height);
 
     &:hover {
       background-color: var(--ct-grey-100);
     }
 
     &__label {
-      padding-left: 0.75em;
       width: 100%;
       text-overflow: ellipsis;
     }
@@ -28,6 +29,7 @@
     &__icon {
       width: 1.7em;
       height: 1.7em;
+      margin-right: 0.75em;
       background-color: var(--ct-grey-400);
     }
 
@@ -47,7 +49,7 @@
 }
 
 .ct-sidemenu-group {
-  padding-top: var(--ct-padding-md);
+  // padding-top: var(--ct-padding-md);
 
   &__header {
     display: flex;
@@ -58,14 +60,15 @@
     border-radius: var(--ct-round-corner-md);
     height: 32px;
     cursor: pointer;
+    height: var(--ct-sidemenu-item-height);
 
     &:hover {
       background-color: var(--ct-grey-100);
     }
   }
   &__icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
   }
 
   &__container {

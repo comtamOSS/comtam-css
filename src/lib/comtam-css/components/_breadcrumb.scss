@@ -1,7 +1,16 @@
-
 .ct-breadcrumb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2em;
+
   &__label {
+    color: var(--ct-breadcrumb-label-color) ;
   }
+
   &__icon {
+    width: 0.9em;
+    height: 0.9em;
+    background-color: var(--ct-breadcrumb-icon-color) ;
   }
 }
